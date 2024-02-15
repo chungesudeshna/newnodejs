@@ -2,7 +2,7 @@
 var express = require("express");
 
 var app = express();
-//Respond with "hello  hello world" for requests that hit our root "/"
+//Respond with "hello  hello world radha" for requests that hit our root "/"
 app.get("/", function (req, res) {
 res.send("radha krishna");
 });
